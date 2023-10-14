@@ -16,23 +16,13 @@
             android:name=".BookKidActivity"
             android:exported="false" />
         <activity
-            android:name=".Fragment"
-            android:exported="false" />
-        <activity
-            android:name=".activitymain"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
-        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity_2636"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

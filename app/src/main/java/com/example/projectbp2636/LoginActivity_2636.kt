@@ -16,7 +16,7 @@ class LoginActivity_2636 : AppCompatActivity() {
         //instance
         val btnLogin:Button = findViewById(R.id.buttonLogin)
         val txtUsername:EditText = findViewById(R.id.editTextUsername)
-        val txtPassword:EditText = findViewById(R.id.editTextTextPassword)
+        val txtPassword:EditText = findViewById(R.id.editTextPassword)
         val logModel = LoginModel()
 
         //even btn Login click
@@ -26,7 +26,6 @@ class LoginActivity_2636 : AppCompatActivity() {
             logModel.password =txtPassword.text.toString()
             //validate
             if (logModel.loginCheck() == true){
-                // coll home activity
                 val intentHome = Intent(this, HomeActivity::class.java)
                 startActivity(intentHome)
             }else{

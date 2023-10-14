@@ -4,13 +4,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import com.example.project2636.FableFragment
+import com.example.project2636.FairyFragment
+import com.example.project2636.ScienceFragment
 import com.example.projectbp2636.databinding.ActivityBookKidBinding
 
 class BookKidActivity : AppCompatActivity() {
     private fun replaceFragment(frg: Fragment){
         val fragmentManager = supportFragmentManager
         val fragmentTrx = fragmentManager.beginTransaction()
-        fragmentTrx.replace(R.id.fragmrntKidBook,frg)
+        fragmentTrx.replace(R.id.fragmentKidBook,frg)
         fragmentTrx.commit()
     }
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -7,7 +7,7 @@
     tools:context=".BookKidActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmrntKidBook"
+        android:id="@+id/fragmentKidBook"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
